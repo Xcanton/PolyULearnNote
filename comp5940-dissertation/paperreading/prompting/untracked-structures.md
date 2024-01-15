@@ -1,5 +1,15 @@
 # Untracked Structures
 
+```
+// bibtex reference
+@misc{UntrackedPromptingStructure,
+    author = {{QianMo}},
+    year = {2023},
+    title = {Nine Simple but Powerful Prompt Framework},
+    howpublished = {\url{https://zhuanlan.zhihu.com/p/648357075}}    
+}
+```
+
 ## APE 框架：行动、目的、期望
 
 • Action 行动：定义要完成的工作或活动。\
