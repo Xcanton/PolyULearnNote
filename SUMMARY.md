@@ -111,3 +111,5 @@
     * [Visual Question Answering(VQA) Related](comp5940-dissertation/paperreading/visual-question-answering-vqa-related.md)
     * [Prompting](comp5940-dissertation/paperreading/prompting/README.md)
       * [CRISPE Structure](comp5940-dissertation/paperreading/prompting/crispe-structure.md)
+    * [OpenAI CookBook](comp5940-dissertation/paperreading/openai-cookbook/README.md)
+      * [GPT with vision for video understanding](comp5940-dissertation/paperreading/openai-cookbook/gpt-with-vision-for-video-understanding.md)
