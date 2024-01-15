@@ -105,3 +105,5 @@
     * [ICMP（internet control message protocol）](comp5311-internet-infrastructure-and-protocols/internet-protocol-ip/icmp-internet-control-message-protocol.md)
     * [IPv6](comp5311-internet-infrastructure-and-protocols/internet-protocol-ip/ipv6.md)
   * [Routing Protocol](comp5311-internet-infrastructure-and-protocols/routing-protocol.md)
+* [COMP5940 Dissertation](comp5940-dissertation/README.md)
+  * [Weekly Routine](comp5940-dissertation/weekly-routine.md)
