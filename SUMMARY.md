@@ -114,5 +114,6 @@
       * [Role-Task-Format(RTF) Structure](comp5940-dissertation/paperreading/prompting/role-task-format-rtf-structure.md)
       * [TRACE Structure](comp5940-dissertation/paperreading/prompting/trace-structure.md)
       * [Untracked Structures](comp5940-dissertation/paperreading/prompting/untracked-structures.md)
+      * [Prompt Engineering Guide](comp5940-dissertation/paperreading/prompting/prompt-engineering-guide.md)
     * [OpenAI CookBook](comp5940-dissertation/paperreading/openai-cookbook/README.md)
       * [GPT with vision for video understanding](comp5940-dissertation/paperreading/openai-cookbook/gpt-with-vision-for-video-understanding.md)
