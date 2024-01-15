@@ -107,3 +107,7 @@
   * [Routing Protocol](comp5311-internet-infrastructure-and-protocols/routing-protocol.md)
 * [COMP5940 Dissertation](comp5940-dissertation/README.md)
   * [Weekly Routine](comp5940-dissertation/weekly-routine.md)
+  * [PaperReading](comp5940-dissertation/paperreading/README.md)
+    * [Visual Question Answering(VQA) Related](comp5940-dissertation/paperreading/visual-question-answering-vqa-related.md)
+    * [Prompting](comp5940-dissertation/paperreading/prompting/README.md)
+      * [CRISPE Structure](comp5940-dissertation/paperreading/prompting/crispe-structure.md)
