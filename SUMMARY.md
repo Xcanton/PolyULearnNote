@@ -119,3 +119,7 @@
       * [GPT with vision for video understanding](comp5940-dissertation/paperreading/openai-cookbook/gpt-with-vision-for-video-understanding.md)
 * [COMP5152 Advanced Data Analytics](comp5152-advanced-data-analytics/README.md)
   * [General Information](comp5152-advanced-data-analytics/general-information.md)
+  * [Data Types](comp5152-advanced-data-analytics/data-types.md)
+  * [Statistical Analysis](comp5152-advanced-data-analytics/statistical-analysis.md)
+  * [Data Preprocessing](comp5152-advanced-data-analytics/data-preprocessing.md)
+  * [Data Visualization](comp5152-advanced-data-analytics/data-visualization.md)
