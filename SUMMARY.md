@@ -125,3 +125,7 @@
   * [Data Visualization](comp5152-advanced-data-analytics/data-visualization.md)
 * [COMP5423 Natural Language Processing](comp5423-natural-language-processing/README.md)
   * [Introduction](comp5423-natural-language-processing/introduction.md)
+  * [Text Normalization & Representation](comp5423-natural-language-processing/text-normalization-and-representation/README.md)
+    * [Text Normalization(Pre-Processing)](comp5423-natural-language-processing/text-normalization-and-representation/text-normalization-pre-processing.md)
+    * [Morphological Analysis](comp5423-natural-language-processing/text-normalization-and-representation/morphological-analysis.md)
+    * [Text Representation](comp5423-natural-language-processing/text-normalization-and-representation/text-representation.md)
