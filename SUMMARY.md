@@ -123,3 +123,5 @@
   * [Statistical Analysis](comp5152-advanced-data-analytics/statistical-analysis.md)
   * [Data Preprocessing](comp5152-advanced-data-analytics/data-preprocessing.md)
   * [Data Visualization](comp5152-advanced-data-analytics/data-visualization.md)
+* [COMP5423 Natural Language Processing](comp5423-natural-language-processing/README.md)
+  * [Introduction](comp5423-natural-language-processing/introduction.md)
