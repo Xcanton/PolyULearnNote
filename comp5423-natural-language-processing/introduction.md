@@ -85,3 +85,48 @@ NLG任务模拟人类是如何写作的（NLG simulates how human write）
 | A man inspects the uniform of a figure in some East Asian country. | Contradiction | The man is sleeping.                                               |
 | An older and younger man smiling.                                  | Neutral       | Two men are smiling and laughing at the cats playing on the floor. |
 | A soccer game with multiple males playing.                         | Entailment    | Some men are playing a sport.                                      |
+
+## NLP的技术（算法）类别
+
+### 文本分类（Text Classification）
+
+<figure><img src="../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
+
+分类内容包括多种，其中情感分类（Sentiment/Emotion Classification）、垃圾邮件（Email Spam Detection）、虚假新闻分类（Fake News Detection）等都是主流
+
+### 文本排序（Text Ranking）
+
+<figure><img src="../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
+
+主要内容包括信息检索（Information Retrieval）、总结提取（Extractive Summarization）、基于检索的对话系统（Retrieval-based Dialogue Systems）
+
+### 信息提取（Information Extraction）/序列标注（Sequence Labeling）
+
+<figure><img src="../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
+
+主要包括：问答（Question Answering）和知识推理（Knowledge Discovery）
+
+### Sequence-to-Sequence Generation
+
+<figure><img src="../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+
+## NLP的历史
+
+<figure><img src="../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure>
+
+### LLM的历史
+
+<figure><img src="../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
+
+## NLP的挑战
+
+最大的问题是：语言的灵活性（Language is Flexible），没有固定的词汇（Open-ended Vocabulary），灵活的组合（Flexible Combination）和变化的语法（No Fixed Grammar）。
+
+语言的模糊体现在各个层级（Language is Ambiguity at Different Levels）：
+
+* Word-Level（一词多义）
+* Word Segmentation Level（断句）
+* Sentence-Level Syntactic（with指代不明）
+* Coreference Ambiguity（代词指代不明，多名称实体）
