@@ -64,3 +64,44 @@ description: Stemming（词干提取） and Lemmatization（词形还原）
 
 ### Dictionary-based Word Segmentation
 
+基于词典的分词算法是通过匹配字符和词表中的单词实现分词的。成功匹配的字符换呗转化成一串词Token序列。
+
+匹配的方向有：正向匹配（<mark style="color:red;">Forward Matching</mark>）和反向匹配（<mark style="color:red;">Backward Matching</mark>）
+
+匹配长度的优先级有：最大长度优先（<mark style="color:red;">Maximum Matching</mark>）和最小长度优先（<mark style="color:red;">Minimum Matching</mark>）
+
+从性能上来说，反向匹配的精度会更高。但是正向和反向都能达到95%以上的accuracy。
+
+### 前向最大长度匹配（Forward Maximum Matching）
+
+<figure><img src="../../.gitbook/assets/image (252).png" alt=""><figcaption><p>Forward Maximum Matching Algorithm</p></figcaption></figure>
+
+简而言之，前向最大匹配就是在设定的最大长度（MaxLen）中，寻找词典中是否有一样的词。如果没有，则减少最后的字符重新检索字典，直到两个字符都不满足的时候，将剩下的字符作为单字符。如果从字典中找到了匹配的词，那么从下一未匹配的文本重新最大长度匹配。
+
+#### 例题：前向最大长度匹配（Forward Maximum Matching）
+
+<figure><img src="../../.gitbook/assets/image (253).png" alt=""><figcaption><p>Example of Forward Maximum Matching</p></figcaption></figure>
+
+### 前向最小长度匹配（Forward Minimum Matching）
+
+<figure><img src="../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+
+简而言之，最小长度匹配是从两个字符开始，从词典中匹配。如果未匹配到词典中的词，那么加上一个字符再从词典中匹配，直到字符串结束或者达到预设的最大长度（MaxLen）。如果未匹配成功，则将第一个字符作为单字符词输出。一旦成功分词，那么将从下两个字符重新开始匹配。
+
+#### 例题：前向最小长度匹配（Forward Minimum Matching）
+
+<figure><img src="../../.gitbook/assets/image (255).png" alt=""><figcaption><p>Example of Forward Minimum Matching</p></figcaption></figure>
+
+### 分词的不准确性（Ambiguity in Word Segmentation）
+
+#### 90%：重叠分词模糊（Overlapping Ambiguity）
+
+<figure><img src="../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+
+重叠分词模糊的原因是：出现了连续字符串ABC，既可以被划分成A^BC，也可以被划分成AB^C。这种情况占据分词模糊中的绝大多数情况（90%）。
+
+#### 10%：组合分词模糊（Grouping Ambiguity）
+
+<figure><img src="../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
+
+组合分词模糊的原因是：出现了连续字符串AB，也存在A和B单独的词条。不过这种情况占少数（10%）。
