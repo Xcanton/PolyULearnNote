@@ -6,3 +6,5 @@ description: >-
 
 # Text Representation
 
+## 词袋表征算法Bag-of-Words Representation
+
