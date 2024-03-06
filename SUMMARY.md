@@ -129,3 +129,6 @@
     * [Text Normalization(Pre-Processing)](comp5423-natural-language-processing/text-normalization-and-representation/text-normalization-pre-processing.md)
     * [Morphological Analysis](comp5423-natural-language-processing/text-normalization-and-representation/morphological-analysis.md)
     * [Text Representation](comp5423-natural-language-processing/text-normalization-and-representation/text-representation.md)
+  * [Text Classification & Ranking](comp5423-natural-language-processing/text-classification-and-ranking/README.md)
+    * [Text Classification](comp5423-natural-language-processing/text-classification-and-ranking/text-classification.md)
+    * [Text Ranking](comp5423-natural-language-processing/text-classification-and-ranking/text-ranking.md)
