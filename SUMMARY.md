@@ -132,3 +132,7 @@
   * [Text Classification & Ranking](comp5423-natural-language-processing/text-classification-and-ranking/README.md)
     * [Text Classification](comp5423-natural-language-processing/text-classification-and-ranking/text-classification.md)
     * [Text Ranking](comp5423-natural-language-processing/text-classification-and-ranking/text-ranking.md)
+  * [N-Gram Language Models](comp5423-natural-language-processing/n-gram-language-models/README.md)
+    * [N-Grams](comp5423-natural-language-processing/n-gram-language-models/n-grams/README.md)
+      * [语言模型的种类](comp5423-natural-language-processing/n-gram-language-models/n-grams/yu-yan-mo-xing-de-zhong-lei.md)
+    * [Smoothing Techniques](comp5423-natural-language-processing/n-gram-language-models/smoothing-techniques.md)

@@ -41,10 +41,10 @@
   * 摘要 Abstract
   *   纹理映射 Texture Mapping
 
-      <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
   *   球棒 Ball & Stick
 
-      <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
   * 轮廓 Contour
   *   假色 False Color
 
