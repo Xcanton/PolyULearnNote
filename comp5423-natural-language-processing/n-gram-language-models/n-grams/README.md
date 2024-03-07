@@ -2,7 +2,7 @@
 
 ## 语言模型（Language Models，LM）
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 本质上语言模型就是计算一段词序列的概率或者下一个词的概率。
 

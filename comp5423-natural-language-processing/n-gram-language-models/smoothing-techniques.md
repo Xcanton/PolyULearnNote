@@ -39,3 +39,49 @@ $$
 * N是训练语料中的词的总数（非词表数量）
 * V是词表长度
 
+### <mark style="color:red;">例题</mark>：计算拉普拉斯平滑
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### 加K平滑Add-K Smoothing
+
+$$
+P^*(w_k|w_{k-1})=\frac {c(w_{k-1},w_k)+k} {c(w_{k-1})+kV}
+$$
+
+拉普拉斯平滑的一个变种，由增加1变成增加k，减少语料中出现少的词汇的误差。k通常取百分比（A Fractional Count），例如：0.5，0.05，0.01。
+
+尽管加K平滑在某些任务上有效（包括文本分类任务），但是它<mark style="color:red;">在语言模型中效果不佳</mark>。
+
+### 回退平滑（Backoff Smoothing）
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+如果在高阶N-Gram上概率为0，那么回退成低阶概率。
+
+In backoff, we use the Tri-gram if the evidence is sufficient, otherwise we use the Bi-gram, otherwise the Uni-gram. In other words, we only “back off” to a lower-order N-gram if we have zero evidence for a higher-order N-gram.
+
+#### Katz Backoff（一种回退算法，不重要）
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+### 线性插值（Linear Interpolation）
+
+相反的，我们可以通过线性插值的方式对0概率的部分平滑。
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+经验证明，插值平滑方式效果更好。
+
+## \<UNK>问题（OOV，Out of Vocabulary）
+
+我们有两种处理方式：
+
+1. 暴力从训练集中选择部分词作为\<unk>，然后一起训练概率
+2. 不在训练集中处理，而是在推理时给\<unk>分配一个小概率。
+
+需要注意的是：\<unk>会影响模型评判指标（例如困惑度Perplexity）。一个语言模型可以通过将少量词汇指定为\<unk>联合训练成unknown word，从而获得高的概率。
+
+Note that the exact choice of model does have an effect on metrics like perplexity. A language model can achieve low perplexity by choosing a small vocabulary and assigning the unknown word a high probability.
+
+所以训练和推理需要采用同一套词表。

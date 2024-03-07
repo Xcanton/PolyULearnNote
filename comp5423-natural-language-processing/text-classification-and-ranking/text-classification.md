@@ -47,7 +47,7 @@ description: Classification Models、Linguistic Features
 
 ### 基于情感词典等特征（Lexicon-based Features）
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 也是基于词向量的特征（Sentiment Words and Phrases），不过目标词向量换成了情感词典中的词向量（From Sentiment Lexicon/Dictionary）。
 
@@ -60,15 +60,15 @@ description: Classification Models、Linguistic Features
 
 ### 语言特征（Linguistic Features）
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 语言特征（Linguistic Features）包括POS（Part-of-Speech）Tags和他们的N-Gram特征（POS N-Grams Features）。
 
 ### 其他统计特征和细粒度特征（Other Statistic and Specially Designed Features）
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 输入文本表征（Representation of Input Text）
 
@@ -82,6 +82,6 @@ description: Classification Models、Linguistic Features
 
 ### 基于表征学习的输入表征（Representation Learning）
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 为了避免在特征设计的时候引入大量的人工干预，近期的研究都聚焦到怎么用embedding在预训练到过程中提取向量表征。
