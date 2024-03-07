@@ -10,7 +10,7 @@ A tree is a set of connected nodes such that
   * Internal node: a node with at least one child
   * Leaf node (a.k.a. external node): a node without any child
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>tree with height 2</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>tree with height 2</p></figcaption></figure>
 
 Height of a tree: the maximum path length（树高层数-1）
 
