@@ -1,5 +1,7 @@
 # Text Classification & Ranking
 
+## [#li-ti-gen-ju-query-ji-suan-wen-dang-pai-xu](text-ranking.md#li-ti-gen-ju-query-ji-suan-wen-dang-pai-xu "mention")
+
 ## 作业：如何用机器学习算法实现中文分词
 
 {% hint style="info" %}

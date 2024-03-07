@@ -26,7 +26,7 @@ $$
 
 但是该方式需要内层循环的数据具有一定的索引结构。
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption><p>pseudocode of Index Nested-Loop Join</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode of Index Nested-Loop Join</p></figcaption></figure>
 
 内层循环的复杂度为h\_s+1，由于输出块地址所以+1，h\_s为树的高度（如果是B+ Tree）。这个例子是[主键索引](how-to-process-selection-operation.md#primary-index-on-candidate-key-equality-cha-xun-zhu-jian-you-dui-deng-de-index)，其他方式需要将整体替换成[其他的时间复杂度](how-to-process-selection-operation.md)。
 

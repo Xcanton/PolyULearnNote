@@ -41,7 +41,7 @@ $$
 
 ### <mark style="color:red;">例题</mark>：计算拉普拉斯平滑
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### 加K平滑Add-K Smoothing
 
@@ -55,7 +55,7 @@ $$
 
 ### 回退平滑（Backoff Smoothing）
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 如果在高阶N-Gram上概率为0，那么回退成低阶概率。
 
@@ -63,13 +63,13 @@ In backoff, we use the Tri-gram if the evidence is sufficient, otherwise we use 
 
 #### Katz Backoff（一种回退算法，不重要）
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 线性插值（Linear Interpolation）
 
 相反的，我们可以通过线性插值的方式对0概率的部分平滑。
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 经验证明，插值平滑方式效果更好。
 

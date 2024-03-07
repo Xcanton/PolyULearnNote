@@ -2,7 +2,7 @@
 
 ## 语言模型（Language Models，LM）
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 本质上语言模型就是计算一段词序列的概率或者下一个词的概率。
 
@@ -36,7 +36,7 @@ $$
 
 而一个Tri-Gram模型，就是从上两个词预测下一个词。
 
-## 例题：计算句子概率
+## <mark style="color:red;">例题</mark>：计算句子概率
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
