@@ -144,3 +144,6 @@
     * [N-Grams](comp5423-natural-language-processing/n-gram-language-models/n-grams/README.md)
       * [语言模型的种类](comp5423-natural-language-processing/n-gram-language-models/n-grams/yu-yan-mo-xing-de-zhong-lei.md)
     * [Smoothing Techniques](comp5423-natural-language-processing/n-gram-language-models/smoothing-techniques.md)
+  * [Dialogue Systems](comp5423-natural-language-processing/dialogue-systems/README.md)
+    * [Task-Oriented (Domain-Specific) Dialogue Systems](comp5423-natural-language-processing/dialogue-systems/task-oriented-domain-specific-dialogue-systems.md)
+    * [Non-Task-Oriented (Social-Oriented, Open-Domain) Dialogue Systems](comp5423-natural-language-processing/dialogue-systems/non-task-oriented-social-oriented-open-domain-dialogue-systems.md)
