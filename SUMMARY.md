@@ -152,3 +152,6 @@
       * [Rule-based Approaches](comp5423-natural-language-processing/dialogue-systems/non-task-oriented-social-oriented-open-domain-dialogue-systems/rule-based-approaches.md)
       * [Retrieval-based Approaches](comp5423-natural-language-processing/dialogue-systems/non-task-oriented-social-oriented-open-domain-dialogue-systems/retrieval-based-approaches.md)
       * [Generation-based Approaches](comp5423-natural-language-processing/dialogue-systems/non-task-oriented-social-oriented-open-domain-dialogue-systems/generation-based-approaches.md)
+  * [Word Vector Representation and Embedding](comp5423-natural-language-processing/word-vector-representation-and-embedding/README.md)
+    * [Word Semantic Representations](comp5423-natural-language-processing/word-vector-representation-and-embedding/word-semantic-representations.md)
+    * [Word Embeddings](comp5423-natural-language-processing/word-vector-representation-and-embedding/word-embeddings.md)
