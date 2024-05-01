@@ -146,4 +146,7 @@
     * [Smoothing Techniques](comp5423-natural-language-processing/n-gram-language-models/smoothing-techniques.md)
   * [Dialogue Systems](comp5423-natural-language-processing/dialogue-systems/README.md)
     * [Task-Oriented (Domain-Specific) Dialogue Systems](comp5423-natural-language-processing/dialogue-systems/task-oriented-domain-specific-dialogue-systems.md)
-    * [Non-Task-Oriented (Social-Oriented, Open-Domain) Dialogue Systems](comp5423-natural-language-processing/dialogue-systems/non-task-oriented-social-oriented-open-domain-dialogue-systems.md)
+    * [Non-Task-Oriented (Social-Oriented, Open-Domain) Dialogue Systems](comp5423-natural-language-processing/dialogue-systems/non-task-oriented-social-oriented-open-domain-dialogue-systems/README.md)
+      * [Rule-based Approaches](comp5423-natural-language-processing/dialogue-systems/non-task-oriented-social-oriented-open-domain-dialogue-systems/rule-based-approaches.md)
+      * [Retrieval-based Approaches](comp5423-natural-language-processing/dialogue-systems/non-task-oriented-social-oriented-open-domain-dialogue-systems/retrieval-based-approaches.md)
+      * [Generation-based Approaches](comp5423-natural-language-processing/dialogue-systems/non-task-oriented-social-oriented-open-domain-dialogue-systems/generation-based-approaches.md)

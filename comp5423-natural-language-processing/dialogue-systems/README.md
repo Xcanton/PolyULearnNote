@@ -5,7 +5,7 @@
 * [task-oriented-domain-specific-dialogue-systems.md](task-oriented-domain-specific-dialogue-systems.md "mention")
   * 目的是assist the user to <mark style="color:red;">complete specific tasks</mark>
   * Conversational Question Answering and Conversational Recommendation
-* [non-task-oriented-social-oriented-open-domain-dialogue-systems.md](non-task-oriented-social-oriented-open-domain-dialogue-systems.md "mention")
+* [non-task-oriented-social-oriented-open-domain-dialogue-systems](non-task-oriented-social-oriented-open-domain-dialogue-systems/ "mention")
   * 根据与用户的交互过程，提供合理的回复和<mark style="color:red;">entertainment</mark>
   * interact with humans to provide reasonable responses and <mark style="color:red;">entertainment</mark>
   * 也被称为open-domain systems或者chit-chat dialogue system
