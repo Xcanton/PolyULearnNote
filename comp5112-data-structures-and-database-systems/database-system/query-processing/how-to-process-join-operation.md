@@ -40,13 +40,13 @@ $$
 
 <figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>Exercise on how to compute the cost of nested-loop join</p></figcaption></figure>
 
-* 对两个table在外层循环的情况分别讨论，并带入![](<../../../.gitbook/assets/image (7) (1).png>)计算
+* 对两个table在外层循环的情况分别讨论，并带入![](<../../../.gitbook/assets/image (7) (1) (1).png>)计算
 * 如果内层循环有index，那么计算器复杂度。
-* 如果内层循环是B+ Tree，那么用B+ Tree的搜索复杂度![](<../../../.gitbook/assets/image (8) (1).png>)+1计算，结合了B+ Tree的[树高计算](../data-storage-and-indexing/b+-tree-organization.md#li-ti)和[对称主键搜索](how-to-process-selection-operation.md#primary-index-on-candidate-key-equality-cha-xun-zhu-jian-you-dui-deng-de-index)。
+* 如果内层循环是B+ Tree，那么用B+ Tree的搜索复杂度![](<../../../.gitbook/assets/image (8) (1) (1).png>)+1计算，结合了B+ Tree的[树高计算](../data-storage-and-indexing/b+-tree-organization.md#li-ti)和[对称主键搜索](how-to-process-selection-operation.md#primary-index-on-candidate-key-equality-cha-xun-zhu-jian-you-dui-deng-de-index)。
 
 ## Block Nested-Loop Join
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>pseudocode of Block Nested-Loop Join</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>pseudocode of Block Nested-Loop Join</p></figcaption></figure>
 
 这个方式是对外层循环的表组织进行优化，通过对外层循环对应的表的blocks数量进行优化，不再循环所有的行数，只循环blocks数量。
 

@@ -30,7 +30,7 @@ $$
 P(w_k|w_{k-1}) = \frac {count(w_{k-1}, w_k)}{count(w_{k-1})}
 $$
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 在一个Bi-Gram模型里面，连乘概率用上一个词预估下一个词的概率计算，通常会加上开头和结尾的统计概率。
 
@@ -38,7 +38,7 @@ $$
 
 ## <mark style="color:red;">例题</mark>：计算句子概率
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 

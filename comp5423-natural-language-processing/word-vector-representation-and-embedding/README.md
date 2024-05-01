@@ -6,7 +6,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Pointwise Mutual Information（PMI）
 
@@ -16,7 +16,7 @@ $$
 PMI(w, c) = \log_2{\frac {P(w, c)} {P(w)P(c)}}
 $$
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 简而言之，就是计算共现频率处以词频乘积的log值。但是会引发其他问题（语料中没有活或者少量的共现次数，会导致<mark style="color:red;">负数PMI</mark>）
 
@@ -26,4 +26,4 @@ $$
 PPMI(w, c) = \max(\log_2{\frac {P(w, c)} {P(w)P(c)}},0)
 $$
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
