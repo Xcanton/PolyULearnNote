@@ -108,7 +108,7 @@ description: Stemming（词干提取） and Lemmatization（词形还原）
 
 ## Sub-Word Segmentation (Sub-Word based Tokenization )
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 由于语言是变化迅速的，所以难免遇到未知字符/陌生词组的情况。为了应对这种情况，可以采用子词（Sub-words）tokenization。所谓的子词（Sub-words），就是比词组更小的单元。（modern tokenizers often automatically induce sets of tokens that include tokens smaller than words, called sub-words, from corpus.）
 
@@ -116,7 +116,7 @@ description: Stemming（词干提取） and Lemmatization（词形还原）
 
 ### Byte-Pair Encoding (BPE) Algorithm
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for BPE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for BPE</p></figcaption></figure>
 
 BPE算法就是一种从语料中学习Sub-Word的算法。简单来说，BPE算法先将所有的字符单独作为token放在语料库中，然后开始迭代：从词表统计中挑选出出现次数最多的两个组合（所以叫Byte-Pair），然后更新到词表中，再更新语料，如果新的token：AB能够覆盖所有B或A的情况，那就把B或A从统计中删除。重复迭代直到压缩率达标。
 
@@ -124,5 +124,5 @@ BPE算法就是一种从语料中学习Sub-Word的算法。简单来说，BPE算
 
 #### 例题：BPE算法迭代Tokenizer
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

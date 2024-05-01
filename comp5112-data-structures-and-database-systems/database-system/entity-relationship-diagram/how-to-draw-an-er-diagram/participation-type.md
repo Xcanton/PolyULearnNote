@@ -2,7 +2,7 @@
 
 在确定实体关系类型后，还需要考虑在关系到实体的过程中，能否为0，即能否部分实体不参与这个关系。
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Examples of different Participation Type</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Examples of different Participation Type</p></figcaption></figure>
 
 ## Total Participation（双线）
 
