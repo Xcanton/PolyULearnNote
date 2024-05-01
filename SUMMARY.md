@@ -155,3 +155,7 @@
   * [Word Vector Representation and Embedding](comp5423-natural-language-processing/word-vector-representation-and-embedding/README.md)
     * [Word Semantic Representations](comp5423-natural-language-processing/word-vector-representation-and-embedding/word-semantic-representations.md)
     * [Word Embeddings](comp5423-natural-language-processing/word-vector-representation-and-embedding/word-embeddings.md)
+  * [Neural Language Models](comp5423-natural-language-processing/neural-language-models/README.md)
+    * [Neural Language Models](comp5423-natural-language-processing/neural-language-models/neural-language-models.md)
+    * [Neural Language Model Architecture](comp5423-natural-language-processing/neural-language-models/neural-language-model-architecture.md)
+    * [PreTraining/FineTuning/Propting Paradigms](comp5423-natural-language-processing/neural-language-models/pretraining-finetuning-propting-paradigms.md)
