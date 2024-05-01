@@ -2,7 +2,7 @@
 
 根据应用方式，对话系统可以划分成两大类别：
 
-* [task-oriented-domain-specific-dialogue-systems.md](task-oriented-domain-specific-dialogue-systems.md "mention")
+* [task-oriented-domain-specific-dialogue-systems](task-oriented-domain-specific-dialogue-systems/ "mention")
   * 目的是assist the user to <mark style="color:red;">complete specific tasks</mark>
   * Conversational Question Answering and Conversational Recommendation
 * [non-task-oriented-social-oriented-open-domain-dialogue-systems](non-task-oriented-social-oriented-open-domain-dialogue-systems/ "mention")
