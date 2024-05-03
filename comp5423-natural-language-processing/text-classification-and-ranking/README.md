@@ -16,4 +16,8 @@ Chinese word segmentation can be cast to a binary or multi-class classification 
 
 <figure><img src="../../.gitbook/assets/image (277).png" alt=""><figcaption></figcaption></figure>
 
-183.46
+## <mark style="color:red;">例题</mark>：根据query计算文档排序
+
+<figure><img src="../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>

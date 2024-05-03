@@ -25,3 +25,11 @@ Considering a training set of 10 numbers that consists digits 0 to 9, let us exa
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+
+## <mark style="color:red;">例题</mark>：计算句子概率
+
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:red;">例题</mark>：计算拉普拉斯平滑
+
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
