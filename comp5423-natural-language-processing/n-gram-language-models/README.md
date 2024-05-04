@@ -6,9 +6,9 @@
 
 ## <mark style="color:red;">作业</mark>：计算一段文本的N-Gram概率
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:red;">作业</mark>：根据上述概率计算词条件概率
 
@@ -16,7 +16,7 @@
 Referring to the table provided in Exercise 1, what is 𝑃(food | i want Chinese) when using the Bi-gram model?
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:red;">作业</mark>：根据场景计算困惑度
 

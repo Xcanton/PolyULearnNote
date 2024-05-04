@@ -29,20 +29,20 @@ $$
 
 #### search(k)
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for LinkedList.search(k)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for LinkedList.search(k)</p></figcaption></figure>
 
 * Search a node with a key value k
 
 #### insert(x)
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for LinkedList.insert(x)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for LinkedList.insert(x)</p></figcaption></figure>
 
 * insert a node into a linked list
 * 如果原链表不是空链表，那么需要将头节点的prev指针指向新节点
 
 #### remove(x)
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for LinkedList.remove(x)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for LinkedList.remove(x)</p></figcaption></figure>
 
 * remove an (existing) item from a linked list
 * 如果是头节点，只需要把x.next放到head
