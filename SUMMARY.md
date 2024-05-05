@@ -132,6 +132,7 @@
   * [Data Preprocessing](comp5152-advanced-data-analytics/data-preprocessing.md)
   * [Data Visualization](comp5152-advanced-data-analytics/data-visualization/README.md)
     * [Dimensionality Reduction](comp5152-advanced-data-analytics/data-visualization/dimensionality-reduction.md)
+  * [Machine Learning](comp5152-advanced-data-analytics/machine-learning.md)
 * [COMP5423 Natural Language Processing](comp5423-natural-language-processing/README.md)
   * [Introduction](comp5423-natural-language-processing/introduction.md)
   * [Text Normalization & Representation](comp5423-natural-language-processing/text-normalization-and-representation/README.md)
