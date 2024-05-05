@@ -52,3 +52,18 @@ $$
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## t-SNE（t-distributed Stochastic Neighbor Embedding）
+
+## Main Idea
+
+将数据映射到一个维度，这个维度中的距离能够反映节点的相似度。
+
+*   Step 1
+
+    calculate the Euclidean distance from all the other points
+*   Step 2
+
+    transforms them into conditional probability that represents the similarity between two points
+
+<figure><img src="../../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
+
+### Step 1： High-dimensional space: how to compute the probability table
