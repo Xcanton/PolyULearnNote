@@ -46,7 +46,7 @@
 
     it is the median of the upper half of the dataset
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 箱线图定义了一个四分位距离<mark style="color:red;">Interquartile range (IQR)</mark>，这个距离是<mark style="color:green;">从Q1到Q3两个点对应值的差</mark>。根据定义，可以算出允许离群点的最大值和最小值的数值：
 
@@ -68,7 +68,7 @@ $$
 
 ## 直方图histogram
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 通过矩形反映数据的频率分布（frequency distribution）的图，其中矩形的宽度代表类间隔（class intervals），矩形的面积与该组频率呈正比。
 
@@ -110,7 +110,7 @@ A heatmap is a data visualization technique that shows magnitude of a phenomenon
 
 #### Common pitfall 认知陷阱
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 在数据可视化中，不一定增加维度会带来正向收益。
 

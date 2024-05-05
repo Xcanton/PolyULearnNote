@@ -1,6 +1,6 @@
 # Word Embeddings
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Skip-Gram（with Negative Sampling）
 
@@ -35,7 +35,7 @@ $$
 
 事实上，训练后的embedding具有良好的偏移性质，对共现的词概率较高，非共现的词概率较低。并且在一定程度上能够反映语意偏移（<mark style="color:red;">Relational Properties</mark>）的现象。
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Continues Bag-of-Words（CBOW）
 

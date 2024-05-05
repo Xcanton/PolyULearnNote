@@ -6,6 +6,13 @@ High dimensionality is challenging and sometimes redundant. It is natural to try
 
 <figure><img src="../../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
 
+*   PCA更看重全局数据的恢复
+
+    PCA preserves the <mark style="color:red;">global shape/structure</mark> of the data
+*   t-SNE更关注部分变量的区分性
+
+    t-SNE preserves the <mark style="color:red;">local structure</mark>
+
 ## PCA（Principle Component Analysis）
 
 [https://www.youtube.com/watch?v=nbBvuuNVfco\&list=RDCMUCm5mt-A4w61lknZ9lCsZtBw\&index=2](https://www.youtube.com/watch?v=nbBvuuNVfco\&list=RDCMUCm5mt-A4w61lknZ9lCsZtBw\&index=2)
@@ -21,12 +28,27 @@ High dimensionality is challenging and sometimes redundant. It is natural to try
 
 ### 数据预处理 Preprocessing
 
-需要做median-maximum-minimum- normalization处理，转换成<mark style="color:red;">和均值的插值的归一化</mark>。
+需要做median-maximum-minimum- normalization处理，转换成<mark style="color:red;">和均值的差值的归一化</mark>。
 
 $$
-\mu=\frac 1 {m} \
+\mu=\frac 1 {m} \sum_{i=1}^m {x_j^{(i)}} \\
+ x_j^{(i)} = (x_j^{(i)} - \mu_j)/(x^j_{max} - x^j_{min})
 $$
 
 ### 输入：协方差矩阵
 
-由于数据上已经进行预处理，变成
+由于数据上已经进行预处理，变成和均值的差的归一化。所以计算协方差矩阵的时候能够更便捷。
+
+$$
+\Sigma = \frac 1 m \sum_{i=1}^m (x^{(i)})(x^{(i)})^T
+$$
+
+### 输出：
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### 选取k个
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+## t-SNE（t-distributed Stochastic Neighbor Embedding）
