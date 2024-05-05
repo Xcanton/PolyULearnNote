@@ -24,7 +24,7 @@ High dimensionality is challenging and sometimes redundant. It is natural to try
 需要做median-maximum-minimum- normalization处理，转换成<mark style="color:red;">和均值的插值的归一化</mark>。
 
 $$
-\mu=\
+\mu=\frac 1 {m} \
 $$
 
 ### 输入：协方差矩阵
