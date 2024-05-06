@@ -65,3 +65,87 @@ Seq2Seq的任务模式可以使用在多种任务中：
 
 端到端训练，自回归的方式修正参数
 
+#### Greedy Decoding
+
+Greedy decoding is to take the most probable word on each step.&#x20;
+
+<mark style="color:red;">Problem</mark>: No way to undo decisions. （老师认为的）
+
+#### Exhaustive Search Decoding
+
+穷举所有可能，很扯淡。
+
+#### Beam Search Decoding
+
+Not guaranteed to find optimal solution
+
+But much more efficient than exhaustive search
+
+Stopping Criterion:
+
+* produces \<END>（但实际上跟模型有关，并且通常是\<eos>）
+* 达到预设的cutoff
+
+### <mark style="color:red;">NMT的好处</mark> Advantage of NMT
+
+1. 翻译效果更好 Better performance
+   1. 更流利 More fluent
+   2. 语料运用更充分 Better use of context
+   3. 更好计算词组的相似度 Better use of phrases similarities
+2.  端到端训练，不需要额外训练组件
+
+    can be trained end-to-end, with no subcomponents to be individually optimized
+3.  需要更少的特征工程
+
+    Requires much less human engineering effort
+
+    1. No feature engineering
+    2. Same methods for all language pairs
+
+### <mark style="color:red;">NMT的坏处</mark> Disadvantages of NMT
+
+1.  可解释性较差
+
+    NMT is less interpretable
+2.  难以控制，无法显式注入规则
+
+    NMT is difficult to control, can't easily specify rules or guidelines for translation
+
+### Machine Translation Evaluation
+
+#### BLEU
+
+### <mark style="color:red;">Challenge for NMT</mark>
+
+* Out-of-vocabulary words
+* Domain mismatch between train and test data
+* Maintaining context over longer text
+* Low-resource language pairs
+
+## Attention
+
+核心思想：在解码器上，只用编码器输出的特定部分向量直接连接（老师臆想的）
+
+<figure><img src="../.gitbook/assets/image (331).png" alt=""><figcaption></figcaption></figure>
+
+### Attention机制用在机器翻译上的好处
+
+1.  显著提升机器翻译的性能
+
+    Attention significantly improves NMT performance
+
+    1. It's very useful to allow the decoder to focus on certain parts of the source
+2.  为神经网络提供了类人的思考过程
+
+    Attention provides a more "human-like" model of the MT process
+
+    1. You can look back at the source sentence while translating, rather than needing to remember it all
+3.  解决了长序列依赖的瓶颈问题
+
+    Attention solves the bottleneck problem, allows the decoder to look directly at source
+4.  提供了很多可解释性的空间
+
+    Attention provides some interpretability
+
+    1. By inspecting attention distribution, we can see what the decoder was focus on&#x20;
+    2. Soft alignment for free
