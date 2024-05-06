@@ -116,7 +116,7 @@ description: Stemming（词干提取） and Lemmatization（词形还原）
 
 ### Byte-Pair Encoding (BPE) Algorithm
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for BPE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for BPE</p></figcaption></figure>
 
 BPE算法就是一种从语料中学习Sub-Word的算法。简单来说，BPE算法先将所有的字符单独作为token放在语料库中，然后开始迭代：从词表统计中挑选出出现次数最多的两个组合（所以叫Byte-Pair），然后更新到词表中，再更新语料，如果新的token：AB能够覆盖所有B或A的情况，那就把B或A从统计中删除。重复迭代直到压缩率达标。
 
