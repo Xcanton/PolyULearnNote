@@ -11,7 +11,7 @@
 * 计算输出和真实下一个词的交叉熵损失
 * 损失函数其实是求解所有时间步的连乘，通过log变换转换为累加
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 如果计算整个语料库的自回归的话，计算开销巨大。所以实践中我们采用句子维度的方式，通过随机梯度下降从小chunk中更新模型。
 
@@ -19,11 +19,11 @@
 
 ### 困惑度 Perplexity
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 很有意思的是，困惑度就等于交叉熵损失
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## RNN-LM
 

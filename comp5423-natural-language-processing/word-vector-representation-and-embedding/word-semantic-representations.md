@@ -2,7 +2,7 @@
 
 ## One-hot Representations
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 不好：没有反映出词间距离，且词向量大
 
@@ -19,7 +19,7 @@
 
 ## Sparse Vectors and Dense Vectors
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 两个假设：
 
@@ -34,7 +34,7 @@
 
 ### Co-occurrence Matrix
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 相近的词在文档中出现的分布相近
 
