@@ -45,7 +45,7 @@ $$
 
 ## ROC Curve & AUC
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ROC曲线的横坐标是假正率（False Positive Rate, FPR），纵坐标是真正率（True Positive Rate, TPR），是用来衡量分类模型在不同的阈值下的表现。
 

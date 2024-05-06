@@ -142,6 +142,7 @@
   * [Deep Learning](comp5152-advanced-data-analytics/deep-learning.md)
   * [Language Model](comp5152-advanced-data-analytics/language-model.md)
   * [Graph Data](comp5152-advanced-data-analytics/graph-data.md)
+  * [Advanced Graph Models](comp5152-advanced-data-analytics/advanced-graph-models.md)
 * [COMP5423 Natural Language Processing](comp5423-natural-language-processing/README.md)
   * [Introduction](comp5423-natural-language-processing/introduction.md)
   * [Text Normalization & Representation](comp5423-natural-language-processing/text-normalization-and-representation/README.md)

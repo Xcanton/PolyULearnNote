@@ -66,7 +66,7 @@ A bipartite graph is a graph whose nodes can be divided into two disjoint sets U
 
 #### 介数中心性 Betweenness Centrality
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 $$
 c_v=\sum_{s \not = v \not = t} \frac {shortest\ paths\ between\ s\ and\ t\ that\ contains\ v}{shortest\ paths\ between\ s\ and\ t}
@@ -81,7 +81,7 @@ $$
 
 #### 紧密中心性 Closeness Centrality
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 $$
 c_v = \sum_{u \not = v} \frac 1 {shortest\ path\ length\ between\ u\ and\ v}
@@ -93,7 +93,7 @@ $$
 
 ### 聚类系数 Clustering Coefficient
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 $$
 e_v=\frac {edges\ among\ neighboring\ nodes} {\mathcal{C}_2^{neighbor\ cnt}} \in [0,1]
@@ -133,7 +133,7 @@ $$
 
 ### Distance-based feature
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 两个节点的最短路径的长度。
 * 但是这个特征没办法反映节点的度。

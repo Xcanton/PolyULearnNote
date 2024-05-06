@@ -1,12 +1,12 @@
 # Word Embeddings
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Skip-Gram（with Negative Sampling）
 
 思想：不是计算共现概率，而是通过可训练的词向量，训练一个<mark style="color:red;">二分类</mark>的分类器，来分辨中间这个词出现在这个语段的概率。
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 通过Self-Supervision自监督的方式训练，并且对负样本做负采样。
 
@@ -35,7 +35,7 @@ $$
 
 事实上，训练后的embedding具有良好的偏移性质，对共现的词概率较高，非共现的词概率较低。并且在一定程度上能够反映语意偏移（<mark style="color:red;">Relational Properties</mark>）的现象。
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Continues Bag-of-Words（CBOW）
 
