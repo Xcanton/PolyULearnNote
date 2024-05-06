@@ -189,3 +189,49 @@ Embedding的好处：
     Potentially used for many downstream predictions
 
 ### 随机游走 Random Walk
+
+原理是：每个节点都有自己的随机初始化向量，随机选择一个点，然后从当前点的随机临近节点中选取一个，优化两个向量相乘的概率为1。
+
+* 也有用cosine相似度替换dot product的
+* 并且采取一定的游走策略
+* 通过Softmax限制
+* 全局优化的目标是概率的连乘，也就是取对数后的累加
+  * 本质上也算是信息上
+
+<figure><img src="../.gitbook/assets/image (332).png" alt=""><figcaption></figcaption></figure>
+
+#### Random Walk的好处 Why Random Walks？
+
+* 较强的表现能力 Expressivity
+  *   可以灵活的表征节点的局部信息和高阶近邻信息
+
+      Flexible stochastic definition of node similarity that incorporates both local and higher-order neighborhood information
+* 高效的 Efficiency
+  *   不需要考虑所有的节点对，只需要考虑相邻的节点
+
+      Do not need to consider all node pairs when training, only need to consider pairs that co-occur on random walks
+
+### Node2Vec
+
+*   Random Walk有个问题就是对局部的结构刻画不好，并不能很好保留局部网络的特征
+
+    The DeepWalk method performs random walks randomly which means that embeddings do not preserve the local neighborhood of the node
+* Node2Vec增加了参数P和参数Q
+  * Q控制从未访问过的节点中选取一个访问的概率，为1/q
+    * 能够控制较大的邻近节点的发现数量
+    * 控制社区的推理和构造复杂度
+  * P控制返回上一个节点的概率，为1/p
+  * 还保留了行走的概率1
+
+<figure><img src="../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure>
+
+*   出发点 Idea
+
+    可以通过灵活的、偏见的随机游走来交替局部结构和全局结构的构建
+
+    * 本质上是BFS和DFS的交替
+    * BFS相当于P的值很小，不怎么返回上一个节点
+    * DFS相当于Q的值很小，不怎么找当前未访问过的节点新访问
+
+<figure><img src="../.gitbook/assets/image (333).png" alt=""><figcaption></figcaption></figure>
+
