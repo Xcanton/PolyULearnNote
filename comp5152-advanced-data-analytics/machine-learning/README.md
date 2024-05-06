@@ -70,3 +70,17 @@ In this improved workflow:&#x20;
 This is a better workflow because it creates fewer exposures to the test set.&#x20;
 
 ## Learning Algorithms (Types)
+
+[supervised-learning.md](supervised-learning.md "mention")
+
+[unsupervised-learning.md](unsupervised-learning.md "mention")
+
+## Evaluation Metrics
+
+[metrics.md](metrics.md "mention")
+
+## Classic Models
+
+[decision-tree.md](decision-tree.md "mention")
+
+[svm.md](svm.md "mention")
