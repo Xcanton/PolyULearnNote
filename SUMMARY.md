@@ -140,6 +140,7 @@
     * [Decision Tree](comp5152-advanced-data-analytics/machine-learning/decision-tree.md)
     * [SVM](comp5152-advanced-data-analytics/machine-learning/svm.md)
   * [Deep Learning](comp5152-advanced-data-analytics/deep-learning.md)
+  * [Language Model](comp5152-advanced-data-analytics/language-model.md)
 * [COMP5423 Natural Language Processing](comp5423-natural-language-processing/README.md)
   * [Introduction](comp5423-natural-language-processing/introduction.md)
   * [Text Normalization & Representation](comp5423-natural-language-processing/text-normalization-and-representation/README.md)

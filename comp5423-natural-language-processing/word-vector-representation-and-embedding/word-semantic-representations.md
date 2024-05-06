@@ -2,7 +2,7 @@
 
 ## One-hot Representations
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 不好：没有反映出词间距离，且词向量大
 

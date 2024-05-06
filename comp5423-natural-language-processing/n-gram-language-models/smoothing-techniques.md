@@ -55,7 +55,7 @@ $$
 
 ### 回退平滑（Backoff Smoothing）
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 如果在高阶N-Gram上概率为0，那么回退成低阶概率。
 

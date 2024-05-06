@@ -15,7 +15,7 @@
 * 单论对话只在user和system间进行一次，通常是user输入一个information need 或者asks a question，系统回复相应的relevant information or an answer。然后对话结束了。
 * 多轮对话允许用户基于previous questions and/or answers提出follow-up questions， 系统提供relevant responses。
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【<mark style="color:red;">vs</mark>】Generation-based vs Retrieval-based
 
