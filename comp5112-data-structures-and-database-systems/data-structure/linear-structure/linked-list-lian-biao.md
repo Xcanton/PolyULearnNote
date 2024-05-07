@@ -29,7 +29,7 @@ $$
 
 #### search(k)
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for LinkedList.search(k)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>pseudocode for LinkedList.search(k)</p></figcaption></figure>
 
 * Search a node with a key value k
 

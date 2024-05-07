@@ -68,7 +68,7 @@ $$
 
 ## 直方图histogram
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 通过矩形反映数据的频率分布（frequency distribution）的图，其中矩形的宽度代表类间隔（class intervals），矩形的面积与该组频率呈正比。
 

@@ -47,7 +47,7 @@ description: Classification Models、Linguistic Features
 
 ### 基于情感词典等特征（Lexicon-based Features）
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 也是基于词向量的特征（Sentiment Words and Phrases），不过目标词向量换成了情感词典中的词向量（From Sentiment Lexicon/Dictionary）。
 

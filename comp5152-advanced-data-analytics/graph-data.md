@@ -81,7 +81,7 @@ $$
 
 #### 紧密中心性 Closeness Centrality
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 $$
 c_v = \sum_{u \not = v} \frac 1 {shortest\ path\ length\ between\ u\ and\ v}
