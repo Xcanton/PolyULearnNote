@@ -126,6 +126,7 @@
       * [TAPAS++](comp5940-dissertation/paperreading/proposal/tapas++.md)
       * [ChartLlama](comp5940-dissertation/paperreading/proposal/chartllama.md)
 * [COMP5152 Advanced Data Analytics](comp5152-advanced-data-analytics/README.md)
+  * [Quiz](comp5152-advanced-data-analytics/quiz.md)
   * [General Information](comp5152-advanced-data-analytics/general-information.md)
   * [Data Types](comp5152-advanced-data-analytics/data-types.md)
   * [Statistical Analysis](comp5152-advanced-data-analytics/statistical-analysis.md)
